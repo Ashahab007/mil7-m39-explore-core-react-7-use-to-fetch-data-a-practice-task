@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <h3>Vite + React</h3>
-      <Suspense fallback={<p>Post is Loading. . . </p>}>
+      <Suspense fallback={<p>Post is Loading . . . </p>}>
         <Posts responsePost={responsePost}></Posts>
       </Suspense>
     </>

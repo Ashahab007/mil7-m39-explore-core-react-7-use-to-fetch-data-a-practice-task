@@ -11,6 +11,7 @@ export default function Posts({ responsePost }) {
         border: "2px solid tomato",
         borderRadius: "10px",
         marginTop: "10px",
+        padding: "5px",
       }}
     >
       <p>Total Posts: {posts.length} </p>
